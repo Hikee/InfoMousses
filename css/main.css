@@ -20,7 +20,27 @@ h1{
 }
 
 .box{
-    padding: 40px 0 0 0;
+    padding: 50px 0 0 0;
     height: 100vh;
     background: #F05555;
+}
+
+.mainform input[type='text'] , .mainform input[type='email']{
+    color:#FFF;
+    background: transparent;
+    border-bottom: 1px solid #CDCDCD;
+}
+
+.mainform input[type='text']:focus , .mainform input[type='email']:focus{
+    border-bottom: 2px solid #006064;
+    box-shadow: none;
+}
+.mainform input[type='button']{
+    background: #00897b;   
+}
+
+
+
+#wrong,#sold{
+    color:#555;
 }
